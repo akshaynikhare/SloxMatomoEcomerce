@@ -1,0 +1,35 @@
+{
+    "name": "slox-matomo-ecomerce/slox-matomo-ecomerce",
+    "description": "The SloxMatomoEcomerce plugin integrates Matomo (an open-source web analytics platform) with Shopware 6, providing comprehensive eCommerce tracking capabilities. This plugin allows shop owners to seamlessly track user interactions and gain valuable insights into their eCommerce performance.",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.1",
+    "license": "proprietary",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "SloxMatomoEcomerce\\SloxMatomoEcomerce",
+        "plugin-icon": "icon.png",
+        "label": {
+            "de-DE": "Matomo E-Commerce Tracking",
+            "en-GB": "Matomo E-comerce Tracking"
+        },
+        "description": {
+            "de-DE": "Das SloxMatomoEcomerce-Plugin integriert Matomo (eine Open-Source-Webanalyseplattform) mit Shopware 6 und bietet umfassende E-Commerce-Tracking-Funktionen. Dieses Plugin ermöglicht es Shop-Besitzern, Benutzerinteraktionen nahtlos zu verfolgen und wertvolle Einblicke in ihre E-Commerce-Leistung zu gewinnen.",
+            "en-GB": "The SloxMatomoEcomerce plugin integrates Matomo (an open-source web analytics platform) with Shopware 6, providing comprehensive eCommerce tracking capabilities. This plugin allows shop owners to seamlessly track user interactions and gain valuable insights into their eCommerce performance."
+        }
+    },
+   
+
+    
+    "autoload": {
+        "psr-4": {
+            "SloxMatomoEcomerce\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SloxMatomoEcomerce\\Tests\\": "tests/"
+        }
+    }
+}

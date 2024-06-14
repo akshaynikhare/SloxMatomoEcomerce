@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Matomo Tracking</title>
+
+        <input-field type="single-select">
+            <name>trackType</name>
+            <label>Way of Tracking</label>
+            <defaultValue>javasctipt</defaultValue>
+            <required>true</required>
+            <options>
+                <option>
+                    <id>javasctipt</id>
+                    <name>only Javasctipt</name>
+                </option>
+                <option>
+                    <id>tagManager</id>
+                    <name>Matomo Tag Manager</name>
+                </option>
+            </options>
+        </input-field>
+    </card>
+    <card>
+        <title>Javasctipt Tracking</title>
+        <input-field type="url">
+            <name>trackingurl</name>
+            <label>Matomo URL</label>
+            <placeholder>abc.matomo.cloud</placeholder>
+        </input-field>
+
+        <input-field type="url">
+            <name>trackingurljs</name>
+            <label>Matomo JS</label>
+            <placeholder>cdn.matomo.cloud/abc.matomo.cloud/matomo.js</placeholder>
+        </input-field>
+        <input-field type="textarea">
+            <name>additionalPermPush</name>
+            <label>additional tracking perameter push (enter one per line) </label>
+            
+        </input-field>
+    </card>
+
+    <card>
+        <title>Matomo Tag Manager</title>
+        <input-field type="url">
+            <name>tagManagerTrackingurljs</name>
+            <label>Matomo JS</label>
+            <placeholder>cdn.matomo.cloud/abc.matomo.cloud/container_Al7zO0Zx.js</placeholder>
+        </input-field>
+    </card>
+</config>
