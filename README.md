@@ -14,11 +14,12 @@ To install SloxMatomoEcomerce in Shopware 6, follow these steps:
 
 ## Development
 If you want to contribute to the development of SloxMatomoEcomerce, follow these steps:
+
 1. Clone the [SloxMatomoEcomerce GitHub repository](https://github.com/SloxSoft/SloxMatomoEcomerce).
-2. Navigate to the cloned repository's directory.
-3. Run `composer install` to install the required dependencies.
-4. Make your desired changes to the code.
-5. Test your changes by running the appropriate tests.
-6. Submit a pull request with your changes.
+2. Ensure that you have Docker installed on your system.
+3. Follow the instructions in the [Dockware documentation](https://docs.dockware.io/setup/docker-setup) to set up and run a Shopware development instance using Docker.
+4. Once the containers are up and running, you can start making changes to the codebase and test your changes locally.
+
+
 
 
