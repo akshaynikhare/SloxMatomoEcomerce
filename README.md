@@ -1,9 +1,7 @@
 # SloxMatomoEcomerce
 SloxMatomoEcomerce is a Shopware 6 plugin that integrates Matomo eCommerce tracking. It is supported by JavaScript and the Matomo Tag Manager.
 
-![Preview Image 1](./_preview/Xnip2024-06-14_15-24-19.jpg){width=400px}
-![Preview Image 2](./_preview/Xnip2024-06-14_15-25-10.jpg){width=400px}
-
+<img src="./_preview/Xnip2024-06-14_15-24-19.jpg" width="400"><img src="./_preview/Xnip2024-06-14_15-25-10.jpg" width="600">
 
 ## Installation
 To install SloxMatomoEcomerce in Shopware 6, follow these steps:
